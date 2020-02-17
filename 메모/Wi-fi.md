@@ -1,3 +1,0 @@
-Wi-fi
-ID: MSYNC-5g
-P/W: 20880911
