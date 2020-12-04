@@ -1,4 +1,4 @@
-# [Git]  rebase 를 이용하여 commit 합치기
+# [Git]  Rebase
 
 
 
@@ -180,16 +180,6 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 현재 커밋을 제거하고 이전 이력으로 합친다.
 
 
-
----
-
-
-
-reword
-
-drop
-
-테스팅후 추가
 
 
 
