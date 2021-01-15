@@ -1,4 +1,4 @@
-# 스크린샷 툴 추천 - 픽픽(PickPick)
+# [Tool] 스크린샷 툴 추천 - 픽픽(PickPick)
 
 오늘은 [픽픽(PickPick)](https://picpick.app/ko/)에 대해서 소개해드리겠습니다.
 

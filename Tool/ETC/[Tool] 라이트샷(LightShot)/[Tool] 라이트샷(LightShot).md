@@ -1,4 +1,4 @@
-# 스크린샷 툴 추천 - 라이트샷(LightShot)
+# [Tool] 스크린샷 툴 추천 - 라이트샷(LightShot)
 
 오늘은 [라이트샷(LightShot)](https://app.prntscr.com/en/)에 대해서 소개해드리겠습니다.
 
