@@ -1,13 +1,15 @@
-# [VSCode] VSCode에 D2Coding 설치 및  설정
+# [VSCode] VSCode에 D2Coding 설치 및 설정
 
 D2Coding는 네이버에서 제공해주는 개발 전용 폰트입니다.
 
 해당 폰트를 VSCode에 적용시켜 보겠습니다.  
 
 
+
 ## D2Coding 설치
 
 1. <https://github.com/naver/d2codingfont> ← 사이트에 접속
+
 2. '다운로드' 바로 아래에 있는 'Ver 1.3.2 (2018.06.01)' 클릭
 
    ![1](1.png)
@@ -31,18 +33,23 @@ D2Coding는 네이버에서 제공해주는 개발 전용 폰트입니다.
 
    ![3](3.png)
 
-7. VSCode 실행
+  
 
-8. Ctrl + , 
 
-9. 검색 창에 Font Family 입력
+## VSCode에 적용
 
-10. 글꼴 패밀리 맨 앞에 D2Coding 추가
+1. VSCode 실행
 
-    ![4](4.png)
+2. Ctrl + , 
 
-11. 설정 창 닫고 문서를 열면 자동 적용됨  
-    
+3. 검색 창에 Font Family 입력
+
+4. 글꼴 패밀리 맨 앞에 D2Coding 추가
+
+   ![4](4.png)
+
+5. 설정 창 닫고 문서를 열면 자동 적용됨  
+   
 
 ## 링크
 
