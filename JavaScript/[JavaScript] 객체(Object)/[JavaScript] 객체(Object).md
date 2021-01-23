@@ -1,4 +1,4 @@
-# [JavaScript]  객체(Object)
+# [JavaScript] 객체(Object)
 
 
 

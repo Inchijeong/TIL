@@ -1,6 +1,6 @@
 
 
-# [JavaScript]  변수(Variable)
+# [JavaScript] 변수(Variable)
 
 
 
