@@ -1,12 +1,8 @@
 # 마크다운(Markdown) 총정리
 
+마크다운(Markdown)에 대해 알아보겠습니다.
 
-
-**목차**
-
-[TOC]
-
-
+<br/>
 
 ## 마크다운(Markdown) 이란?
 
@@ -14,17 +10,15 @@
 
 * 텍스트를 HTML로 변환하는 언어입니다.
 
-
+<br/>
 
 ## 마크다운(Markdown) 사용법
-
-
 
 ### 1. 문장 & 문단
 
 - 문장 끝에 공백 두칸은 줄 바꿈 기능을 합니다.
 
-  (문장 끝 띄어쓰기 2칸 =>  `<br>`)
+  (문장 끝 띄어쓰기 2칸 ==  `<br>`)
 
   + 공백 없을 경우
 
@@ -36,32 +30,35 @@
     <p>Hello World Hi MD</p>
     ```
 
-    
 
-    >  OUTPUT
+---
 
-    Hello World Hi md
+**OUTPUT**
 
-    
+Hello World Hi md
 
-  + 공백 있을 경우
+---
 
-    ```html
-    <!-- Markdown -->
-    Hello World(공백)(공백)
-    Hi MD
-    <!-- HTML -->
-    <p>Hello World<br>Hi MD</p>
-    ```
++ 공백 있을 경우 (혹은 `<br>` 삽입)
 
-    
+  + *(참고) Typora의 경우 공백 2개 입력 후 Shift + Enter 누르기*
+  
+  ```html
+  <!-- Markdown -->
+  Hello World(공백)(공백)
+  Hi MD
+  <!-- HTML -->
+  <p>Hello World<br>Hi MD</p>
+  ```
 
-    >  OUTPUT
+---
 
-    Hello World  
-    Hi MD
+**OUTPUT**
 
-    
+Hello World  
+Hi MD
+
+---
 
 - 문단과 문단은 하나 이상의 빈 줄로 구분합니다.
 
@@ -77,33 +74,35 @@
     <p>Hello World Hi MD</p>
     ```
 
-    
+---
 
-    > OUTPUT
+**OUTPUT**
 
-    Hello World Hi MD
+Hello World Hi MD
 
-    
+---
 
-  + 빈줄 있을 경우
++ 빈줄 있을 경우
 
-    ```html
-    <!-- Markdown -->
-    Hello World
-    
-    Hi MD
-    <!-- HTML -->
-    <p>Hello World</p><p>Hi MD</p>
-    ```
+  ```html
+<!-- Markdown -->
+  Hello World
+  
+  Hi MD
+  <!-- HTML -->
+  <p>Hello World</p><p>Hi MD</p>
+  ```
 
-    
+---
 
-    > OUTPUT
+**OUTPUT**
 
-    Hello World
-    Hi MD
+Hello World
+Hi MD
 
+---
 
+<br/>
 
 ### 2. 제목
 
@@ -126,23 +125,23 @@
   <h6>H6</h6>
   ```
 
-  
+---
 
-  > OUTPUT
+**OUTPUT**
 
-  # H1
+# H1
 
-  ## H2
+## H2
 
-  ### H3
+### H3
 
-  #### H4
+#### H4
 
-  ##### H5
+##### H5
 
-  ###### H6
+###### H6
 
-
+---
 
 * `-` 나 `=` 를 이용하는 방법
 
@@ -157,15 +156,19 @@
   <h1>H2</h1>
   ```
 
-  
+---
 
-  > OUTPUT
+**OUTPUT**
 
-  # H1
+# H1
 
-  ## H2
+## H2
 
 
+
+---
+
+<br/>
 
 ### 3. 구분선(수평선)
 
@@ -188,23 +191,27 @@
   <hr>
   ```
 
-  
+---
 
-  >OUTPUT
+**OUTPUT**
 
-  하이픈
+하이픈
 
-  ---
+---
 
-  언더스코어
+언더스코어
 
-  ___
+___
 
-  애스터리스크
+애스터리스크
 
-  ***
+***
 
 
+
+---
+
+<br/>
 
 ### 4. 목록
 
@@ -235,19 +242,19 @@
   </ul>
   ```
 
-  
+---
 
-  > OUTPUT
+**OUTPUT**
 
-  - ORDER 1
-    - ORDER 1-1
-    - ORDER 1-2
-    - ORDER 1-3
-      - ORDER 1-3-1
-      - ORDER 1-3-2
-  - ORDER 2
+- ORDER 1
+  - ORDER 1-1
+  - ORDER 1-2
+  - ORDER 1-3
+    - ORDER 1-3-1
+    - ORDER 1-3-2
+- ORDER 2
 
-  
+---
 
 - `1.` , `2.`, `3.`  을 이용하여 순서 있는 목록을 만듭니다.
 
@@ -272,17 +279,19 @@
   </ol>
   ```
 
-  
+---
 
-  >OUTPUT
+**OUTPUT**
 
-  1. ORDER 1
-  2. ORDER 2
-  3. ORDER 3
-     * ORDER 3-A
-     * ORDER 3-B
+1. ORDER 1
+2. ORDER 2
+3. ORDER 3
+   * ORDER 3-A
+   * ORDER 3-B
 
+---
 
+<br/>
 
 ### 5. 강조
 
@@ -311,21 +320,23 @@
   <p>Hello <strong><em>World</em></strong></p>
   ```
 
-  
+---
 
-  >OUTPUT
+**OUTPUT**
 
-  Hello *World* 
-  Hello **World** 
-  Hello ***World*** 
-
-  
-
-  Hello _World_ 
-  Hello __World__
-  Hello ___World___   
+Hello *World* 
+Hello **World** 
+Hello ***World*** 
 
 
+
+Hello _World_ 
+Hello __World__
+Hello ___World___   
+
+---
+
+<br/>
 
 ### 6. 인용
 
@@ -350,21 +361,23 @@
   </blockquote>
   ```
 
-  
+---
 
-  >OUTPUT
+**OUTPUT**
 
-  > 입용구입니다.
-  >
-  > # H1
-  >
-  > * a
-  >
-  > * b
-  >
-  >   >이중 인용구
+> 입용구입니다.
+>
+> # H1
+>
+> * a
+>
+> * b
+>
+>   >이중 인용구
 
+---
 
+<br/>
 
 ### 7. 링크 & 이미지
 
@@ -383,10 +396,14 @@
 
   
 
-  > OUTPUT
+---
 
-  [naver](https://www.naver.com)
-  [naver2](https://www.naver.com "네이버")
+**OUTPUT**
+
+[naver](https://www.naver.com)
+[naver2](https://www.naver.com "네이버")
+
+---
 
 
 
@@ -400,17 +417,17 @@
   <a href="https://daum.com" target="_blank" title="다음">daum</a>
   ```
 
-  
+---
 
-  > OUTPUT
+**OUTPUT**
 
-  [daum][1]
+[daum][1]
 
-  
 
-  [1]: https://daum.net "다음"
 
-  
+[1]: https://daum.net "다음"
+
+---
 
 * URI 링크는 `<주소>` 로 사용합니다.
 
@@ -421,13 +438,13 @@
   <a href="https://github.com" target="_blank">https://github.com</a>
   ```
 
-  
+---
 
-  > OUTPUT
+**OUTPUT**
 
-  <https://github.com>
+<https://github.com>
 
-
+---
 
 * 이미지의 경우 링크 앞에 `!` 붙여서 사용합니다.
 
@@ -440,13 +457,15 @@
   <img src="https://user-images.githubusercontent.com/31085727/39238230-b2ebb084-48b8-11e8-9e06-0a1743b253e7.jpg" alt="강아지"/>
   ```
 
-  
+---
 
-  >OUTPUT
+**OUTPUT**
 
-  ![puppy-1903313_640](https://user-images.githubusercontent.com/31085727/39238230-b2ebb084-48b8-11e8-9e06-0a1743b253e7.jpg "강아지")
+![puppy-1903313_640](https://user-images.githubusercontent.com/31085727/39238230-b2ebb084-48b8-11e8-9e06-0a1743b253e7.jpg "강아지")
 
+---
 
+<br/>
 
 ### 8.  이스케이프 & 코드 블록
 
@@ -461,15 +480,15 @@
   <p>* ORDER1</p>
   ```
 
-  
+---
 
-  > OUTPUT
+**OUTPUT**
 
-  \# H1
+\# H1
 
-  \* ORDER1
+\* ORDER1
 
-  
+---
 
 * 인라인 코드 블럭
 
@@ -482,13 +501,13 @@
     <p>Javascript 에서 log 표시 방법은 <code>console.log()</code> 입니다.</p>
     ```
 
-    
+---
 
-    > OUTPUT
+**OUTPUT**
 
-    Javascript 에서 log 표시 방법은 `console.log()` 입니다.
+Javascript 에서 log 표시 방법은 `console.log()` 입니다.
 
-    
+---
 
 * 코드 블럭
 
@@ -513,19 +532,21 @@
   </pre>
   ```
 
-  
+---
 
-  > OUTPUT
+**OUTPUT**
 
-  ```javascript
-  console.log("Hello World");
-  ```
+```javascript
+console.log("Hello World");
+```
 
-  ```{.no-hightlight}
-  console.log("Hello World");
-  ```
+```{.no-hightlight}
+console.log("Hello World");
+```
 
+---
 
+<br/>
 
 ## 마크다운(Markdown) Extension
 
@@ -533,6 +554,8 @@
 * 몇몇 에디터에서 동작하지 않을 수 있습니다.
 
 
+
+<br/>
 
 ### 9. 테이블
 
@@ -592,22 +615,24 @@
   </figure>
   ```
 
-  
+---
 
-  > OUTPUT
+**OUTPUT**
 
-  | Title1   | Title2   |
-  | -------- | -------- |
-  | content1 | content2 |
-  | content3 | content4 |
-
-  
-
-  | Title1   |  Title2  |   Title3 |
-  | :------- | :------: | -------: |
-  | content1 | content2 | content3 |
+| Title1   | Title2   |
+| -------- | -------- |
+| content1 | content2 |
+| content3 | content4 |
 
 
+
+| Title1   |  Title2  |   Title3 |
+| :------- | :------: | -------: |
+| content1 | content2 | content3 |
+
+---
+
+<br/>
 
 ### 10. 각주
 
@@ -619,17 +644,19 @@
   [^1]: 마크업 언어의 일종으로 일반 텍스트 문서의 양식을 편집하는 문법입니다.
   ```
 
-  
+---
 
-  >OUTPUT
+**OUTPUT**
 
-  Markdown[^1] 정리 거의 다 끝나가니 포기하지 마세요.
+Markdown[^1] 정리 거의 다 끝나가니 포기하지 마세요.
 
 
 
 [^1]: 마크업 언어의 일종으로 일반 텍스트 문서의 양식을 편집하는 문법입니다.
 
+---
 
+<br/>
 
 ### 11. 목차
 
@@ -640,11 +667,15 @@
   [TOC]
   ```
 
-  
+---
 
-  >OUTPUT
+**OUTPUT**
 
-  [TOC]
+[TOC]
+
+---
+
+
 
 ## 참조 사이트
 
