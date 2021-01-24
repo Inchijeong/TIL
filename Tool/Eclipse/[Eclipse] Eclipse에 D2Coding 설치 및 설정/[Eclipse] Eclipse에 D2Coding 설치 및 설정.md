@@ -1,8 +1,8 @@
-# [Esclipse] Esclipse에 D2Coding 설치 및 설정
+# [Eclipse] Esclipse에 D2Coding 설치 및 설정
 
 D2Coding는 네이버에서 제공해주는 개발 전용 폰트입니다.
 
-해당 폰트를 Esclipse에 적용시켜 보겠습니다.  
+해당 폰트를 Eclipse에 적용시켜 보겠습니다.  
 
 
 
