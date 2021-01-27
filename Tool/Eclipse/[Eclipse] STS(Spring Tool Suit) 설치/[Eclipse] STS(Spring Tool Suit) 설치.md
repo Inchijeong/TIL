@@ -1,6 +1,6 @@
-# [SpringBoot] Eclipse에 Spring Boot 설치
+# [Eclipse] STS(Spring Tool Suit) 설치
 
-Eclipse에 Spring Boot 설치하는법에 대해 알아보겠습니다.
+Eclipse에 Spring Tool Suit 설치하는법에 대해 알아보겠습니다.
 
 
 
@@ -44,7 +44,7 @@ Eclipse에 Spring Boot 설치하는법에 대해 알아보겠습니다.
 
 ## 링크
 
-* [Spring Boot 공식 홈](https://spring.io/projects/spring-boot)
+* [Spring 공식 홈](https://spring.io/tools)
 
 
 
