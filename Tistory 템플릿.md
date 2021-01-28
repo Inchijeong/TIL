@@ -15,6 +15,27 @@ _은 설명입니다.
 
 
 
+```javascript
+// 마크 다운 모드로 변경
+document.getElementById('mceu_18-open').click();
+setTimeout(f => {
+    document.getElementById('mceu_31').click();
+}, 500);
+
+// Ctrl + Shift + E
+// 사진 불러오기 단축키
+document.addEventListener('keydown', e => {
+    if(e.ctrlKey && e.shiftKey && e.key.toUpperCase() == 'E'){
+        document.querySelector('.mce-widget.mce-btn.mce-menubtn.mce-fixed-width.mce-listbox.mce-first').children[0].click();
+        document.querySelector('.btn-menu-attach').click();
+    }
+});
+```
+
+
+
+
+
 ## 링크
 
 * h1 ~ 6 는 우측 차례에 생성
