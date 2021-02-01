@@ -1,5 +1,3 @@
-
-
 # [Database] MariaDB 설치
 
 MariaDB는 MySQL을 기반으로 만들어진 관계형 데이터베이스 관리 시스템입니다.
