@@ -86,6 +86,32 @@
 
   
 
+## Moonrise 개인적인 색상 변경
+
+너무 어두워서 잘 보이지 않거나 뚜렷하게 보고 싶은 경우를 수정했습니다.
+
+↓ 아래 설정 모두 공통 하위에 있습니다.
+
+(공통) Window - Preferences - General - 
+
+* 커밋되지 않은 파일 색상 변경
+
+  Appearance - Colors and Fonts - Git - Uncommitted Change (Foreground) - RGB(255, 255,128)
+
+* 파일 비교시 변경된 글자 색상 변경
+
+  Appearance - Colors and Fonts - Text - Edition Color - RGB(128, 128, 255)
+
+* 콘솔 텍스트 색상 변경
+
+  Run/Debug - Console - Standard Out text color - RGB(192, 192, 192)
+
+* 드래그 했을때 글자 색 변경
+
+  Editors - Text Editors - Appearance color options: Selection foreground color - RGB(210, 220, 225)
+
+
+
 
 ## 링크
 
