@@ -94,8 +94,6 @@ Pool에 Connection을 미리 만들어 두고 데이터베이스 접근시 Pool�
    spring.datasource.hikari.jdbc-url=jdbc:mysql://localhost:3306/todo?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
    spring.datasource.hikari.username=todo_usr
    spring.datasource.hikari.password=todo_pw
-   spring.datasource.hikari.maximum-pool-size=10
-   spring.datasource.hikari.connection-test-query=SELECT NOW() FROM dual
    
    # MariaDB
    # spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
@@ -195,8 +193,6 @@ Pool에 Connection을 미리 만들어 두고 데이터베이스 접근시 Pool�
 5. 로그가 찍힌 것을 확인할 수 있습니다.
 
    ![4](4.png)
-
-
 
 
 
