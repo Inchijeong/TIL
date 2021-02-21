@@ -62,7 +62,9 @@ Spring Boot 프로젝트를 생성 및 실행 방법에 대해 알아보겠습�
    * Description: 프로젝트 설명
    * Package: 초기 소스들이 만들어질 기본 패키지명
 
-4. Lombok, Spring Web 선택
+4. 사용하고자하는 Dependency 선택
+
+   (아래 테스트만 진행한다면 Spring Web만 추가)
 
    ![4](4.png)
 
