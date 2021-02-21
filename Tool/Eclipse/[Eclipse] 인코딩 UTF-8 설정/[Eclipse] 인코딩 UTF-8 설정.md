@@ -17,9 +17,8 @@
 아래 순서대로 설정하고 apply 
 
 * General - Workspace - Other - UTF-8
-
 * General - Editors - Text Editors - Speling - Encoding - Default (UTF-8)
-
+* General - Content Types - Text - Java Properties File - Default encoding: UTF-8
 * Web - CSS Files - Encoding - ISO 10646/Unicode(UTF-8)
 * Web - HTML files - Encoding - ISO 10646/Unicode(UTF-8)
 * Web - JSP files - Encoding - ISO 10646/Unicode(UTF-8)
