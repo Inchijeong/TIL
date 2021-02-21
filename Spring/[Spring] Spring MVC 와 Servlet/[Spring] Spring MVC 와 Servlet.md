@@ -47,23 +47,26 @@ Spring은 Servelt 기반으로 설계되었습니다. Front Controller, Command 
 
 
 
-### Spring이 구동되면 2개의 Context가 생성
+### Spring 구동시 Context
 
-* ContextLoaderListener에 의해서 만들어지는 Root WebApplicationContext로 Service, Repository를 포함한 독립적인 Beans를 담고 있는 Context이다.
-
-* DispatcherServlet에 의해서 만들어지는 WebApplicationContext로 Controller를 포함한 웹관련 Beans를 담고 있는 Context이다.
+* Root WebApplicationContext
+  * ContextLoaderListener가 생성
+  * Service, Repository를 포함한 독립적인 Beans를 담고 있는 Context
+* WebApplicationContext
+  * DispatcherServlet이 생성
+  * Controller를 포함한 웹관련 Beans를 담고 있는 Context
 
 
 
 ## Spring MVC의 Life Cycle
 
-1. 클라이언트가 서버에 요청을 보내면 Servlet container가 DispatcherServlet에 요청을 전달한다.
-2. DispatcherServlet은 HandlerMapping을 사용하여 컨트롤러를 찾는다. HandlerMapping은 @Controller로 선언되었거나 HttpRequestHandler 인터페이스로 구현한 클래스를 찾아 DispatcherServlet에 리턴하며 컨트롤러의 클래스, 메소드, 리턴타입, 파라미터타입 등 모든 정보를 가지고있다. 컨트롤러가 결정되었지만 호출방법은 호출타입별로 다르기 때문에 DispatcherServlet은 실행할 메소드를 찾지 못한다.
-3. DispatcherServlet에서 찾은 컨트롤러의 메소드를 실행하기 위해 HandlerAdapter객체에게 요청을 위임한다. HandlerAdapter는 컨트롤러의 메소드를 실행하고 리턴타입을 ModelAndView 객체로 변환까지 해준다.
-4. 반환된 ModelAndView를 DispatcherServlet에 리턴한다.
-5. ModelAndView를 받은 DispatcherServlet은 ViewResolver객체를 이용하여 결과를 보여줄 View를 찾는다.
-6. DispatcherServlet은 ViewResolver가 리턴한 View객채에게 응답결과를 생성하도록 요청한다.
-7. JSP를 사용하는 경우, View 객체는 JSP를 실행함으로써 브라우저에게 전송할 응답결과를 생성한다.
+1. 클라이언트가 서버에 요청을 보내면 Servlet Container가 DispatcherServlet에 요청을 전달합니다.
+2. DispatcherServlet은 HandlerMapping을 사용하여 컨트롤러를 찾습니다. HandlerMapping은 @Controller로 선언되었거나 HttpRequestHandler 인터페이스로 구현한 클래스를 찾아 DispatcherServlet에 리턴하며 컨트롤러의 클래스, 메소드, 리턴타입, 파라미터타입 등 모든 정보를 가지고 있습니다. 컨트롤러가 결정되었지만 호출방법은 호출타입별로 다르기 때문에 DispatcherServlet은 실행할 메소드를 찾지 못합니다.
+3. DispatcherServlet에서 찾은 컨트롤러의 메소드를 실행하기 위해 HandlerAdapter객체에게 요청을 위임합니다. HandlerAdapter는 컨트롤러의 메소드를 실행하고 리턴타입을 ModelAndView 객체로 변환까지 해줍니다.
+4. 반환된 ModelAndView를 DispatcherServlet에 리턴합니다.
+5. ModelAndView를 받은 DispatcherServlet은 ViewResolver객체를 이용하여 결과를 보여줄 View를 찾습니다.
+6. DispatcherServlet은 ViewResolver가 리턴한 View객채에게 응답 결과를 생성하도록 요청합니다.
+7. JSP를 사용하는 경우, View 객체는 JSP를 실행함으로써 브라우저에게 전송할 응답 결과를 생성합니다.
 
 
 
