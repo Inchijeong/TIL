@@ -4,13 +4,17 @@ JPA에 대해 알아보겠습니다.
 
 
 
+## ORM(Object-Relational Mapping) 이란?
+
+ORM은 객체지향과 관계형 데이터베이스를 매핑시킨다는 추상화된 개념입니다.
+
+
+
 ## JPA(Java Persistence API) 란?
 
 * JPA는 Java를 이용해서 데이터를 관리(유지)하는 기법을 하나의 스펙으로 정리한 표준
 
 * JPA를 이용하면 다양한 데이터베이스에 종속적인 SQL문 없이 개발 가능
-
-* ORM(Object Relational Mapping) 은 객체지향과 관계형 데이터베이스를 매핑시킨다는 추상화된 개념
 
 * 쉽게 말해 JAP는 ORM을 JAVA 언어에서 구현하기 위한 스펙
 
