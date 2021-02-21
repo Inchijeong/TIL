@@ -4,21 +4,15 @@ Spring Boot에서 JAP를 사용해 보겠습니다.
 
 
 
-## ORM(Object-Relational Mapping) 이란?
-
-ORM은 객체지향과 관계형 데이터베이스를 매핑시킨다는 추상화된 개념입니다.
-
-
-
 ## JPA 란?
 
-JPA(Java Persistence API)는 Java를 이용해서 데이터를 관리(유지)하는 기법을 하나의 스펙으로 정리한 표준입니다. 자세한 것은 여기를 참조하세요.
+JPA(Java Persistence API)는 Java를 이용해서 데이터를 관리(유지)하는 기법을 하나의 스펙으로 정리한 표준입니다. 자세한 것은 [여기](https://poetic-code.tistory.com/114)를 참조하세요.
 
 
 
 ## 사전 준비
 
-※ DataBase 연동 이후 작업을 하겠습니다. 자세한 설명은 여기를 참조하세요.
+※ DataBase 연동 이후 작업을 하겠습니다. 자세한 설명은 [여기](https://poetic-code.tistory.com/113)를 참조하세요.
 
 
 
