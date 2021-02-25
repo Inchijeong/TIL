@@ -68,10 +68,12 @@ Java 애플리케이션에서 SQL문을 실행하기 위한 Java API
 
       ```
       dependencies {
+      	...
       	runtimeOnly 'org.mariadb.jdbc:mariadb-java-client' // MariaDB
       	// runtimeOnly 'mysql:mysql-connector-java' // MySQL
       	// runtimeOnly 'com.oracle.database.jdbc:ojdbc8' // Oracle
           // runtimeOnly 'com.h2database:h2' // h2
+          ...
       }
       ```
       

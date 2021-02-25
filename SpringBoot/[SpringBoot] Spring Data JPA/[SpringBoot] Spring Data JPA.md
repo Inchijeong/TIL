@@ -16,7 +16,7 @@ JPA(Java Persistence API)는 Java를 이용해서 데이터를 관리(유지)하
 
 
 
-## JPA 연동
+## JPA 연동 및 설정
 
 1. Dependency 추가
 
@@ -24,7 +24,9 @@ JPA(Java Persistence API)는 Java를 이용해서 데이터를 관리(유지)하
 
       ```
       dependencies {
+      	...
       	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+      	...
       }
       ```
 
