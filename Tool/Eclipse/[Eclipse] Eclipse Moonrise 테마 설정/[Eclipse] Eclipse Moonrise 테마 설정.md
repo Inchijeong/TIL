@@ -106,6 +106,8 @@
 
   Run/Debug - Console - Standard Out text color - RGB(192, 192, 192)
 
+  Run/Debug - Console - Background color - RGB(160, 0, 30)
+
 * 드래그 했을때 글자 색 변경
 
   Editors - Text Editors - Appearance color options: Selection foreground color - RGB(210, 220, 225)
