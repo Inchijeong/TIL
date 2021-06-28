@@ -1,4 +1,122 @@
-# [Mac] Mac 키보드 단축키
+# [MacOS] 자주 쓰는 단축키
+
+
+
+## 단축키
+
+* command(또는 cmd 또는 윈도우키) ⌘
+* shift ⇧
+* option(또는 alt) ⌥
+* control(또는 ctrl) ⌃
+* caps lock ⇪
+* fn
+
+
+
+## 바로가기
+
+* Sportlight
+  * Command + Space
+
+* Finder
+  * Option + Command + Space
+* 앱 강제 종료
+  * Option + Command + ESC
+
+
+
+## 일반
+
+* 다음 찾기 / 이전 찾기
+  * Command + G / Shift + Command + G
+* 새 탭
+  * Command + T
+* 새 윈도우
+  * Command + N
+* 윈도우 닫기 / 모든 윈도우 닫기
+  * Command + W / Option + Command + W
+* 닫힌 윈도우 복구
+  * Command + Shift + T
+* 윈도우 최소화/ 모든 윈도우 최소화
+  * Command + M / Option + Command + M
+* 최소화된 윈도우 다시 열기
+  * Command + Tab
+  * Command 상태에서 Option을 누른뒤 동시에 떼기 
+* 새로고침
+  * Command + R
+* Dock 노출 토글
+  * Option + Command + D
+
+
+
+## 전원
+
+* 모든 앱 종료 후 시스템 종료
+  * Control + Option + Command + 전원 버튼
+* 화면 잠금
+  * 전원버튼 / Control + Command + Q
+
+
+
+## 스크린샷
+
+* 전체 화면 스크린샷
+  * Command + Shift + 3
+* 지정 화면 스크린샷
+  * Command + Shift + 4
+* 스크린샷 툴
+  * Command + Shift + 5
+
+
+
+## Finder
+
+* 파일 복제
+  * Command + D
+* 폴더 생성
+  * Shift + Command + N
+* 휴지통으로
+  * Command + Backspace
+* 새 Finder 열기
+  * Command + N
+* 새탭에서 열기
+  * Command + 더블 클릭
+* 이름 변경
+  * 파일 누른 상태에서 Enter
+
+
+
+## ShiftIt
+
+* 창 이동
+  * Control + Option + Command + 방향키
+* 모니터간 창 이동
+  * Control + Option + Command + N, P
+* 창 최대화
+  * Control + Option + Command + M
+* 풀 스크린
+  * Control + Option + Command + F
+* 창 중앙에 위치
+  * Control + Option + Command + C
+
+
+
+## Chrome
+
+* 개발자 도구
+  * Command + Option + I
+
+
+
+
+
+---
+
+
+
+
+
+## 모든 키보드 단축키(feat. 공식 홈)
 
 특정 키 조합을 눌러 보통은 마우스, 트랙패드 또는 기타 입력 기기가 있어야 가능한 작업을 수행할 수 있습니다.
 
@@ -216,3 +334,9 @@ Windows PC용 키보드에서는 option 대신 Alt 키, command 대신 Windows �
 - [시동 단축키](https://support.apple.com/ko-kr/HT201255)
 - Apple Music 단축키: 음악 앱의 메뉴 막대에서 도움말 > 키보드 단축키를 선택합니다.
 - 기타 단축키: Apple 메뉴 > 시스템 환경설정을 선택하고 '키보드'를 클릭한 후 '[단축키](https://support.apple.com/ko-kr/guide/mac-help/use-global-keyboard-shortcuts-mchlp2262/mac)'를 클릭합니다.
+
+
+
+## 출처
+
+* <https://support.apple.com/ko-kr/HT201236>
